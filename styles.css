@@ -26,17 +26,20 @@ button {
     margin: 40px 20px 0 20px;
     font-size: 0;
     line-height: 45px;
+    height: 45px;
+    font-family: sans-serif;
 }
 
 .header > * {
     display: inline-block;
     font-size: 16px;
     vertical-align: middle;
-    height: 100%;
+    
 }
 
 li {
     display: inline-block;
+    margin: 0 25px 0 25px;
 }
 .logo {
     width: 15%;
@@ -53,3 +56,20 @@ li {
     text-align: left;
     font-size: 14px;
 }
+
+.actions > * {
+    margin: 0 10px 0 10px;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.actions button {
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
