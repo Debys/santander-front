@@ -2,7 +2,9 @@ body{
     background-color: #fffbf7;
 }
 h1 {
-    color: blue;
+    color: #46484c;
+    text-align: center;
+
 }
 h2,p{
     color: #46484c;
@@ -15,4 +17,27 @@ strong {
 button {
     background-color: #025157;
     color: #fff;
+}
+
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header > * {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+.logo {
+    width: 15%;
+}  
+.navbar {
+    width: 70%;
+}
+.actions {
+    width: 15%;
 }
