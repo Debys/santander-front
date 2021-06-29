@@ -16,6 +16,7 @@ body{
     box-sizing: border-box;*/
 }
 h1 {
+    font-size: 60px;
     color: #46484c;
     text-align: center;
 
@@ -107,7 +108,6 @@ li {
     font-weight: 400;
     border-radius: 5px;
 }
-
 .promo {
     display: flex;
     width: 70%;
@@ -421,14 +421,40 @@ li {
 @media (max-width: 575px) {
     main {
         margin-top: 80px;
-        text-align: left;
     }
     .navbar, .actions {
         display: none;
     }
     h1{
-        font-size:60px;
+        font-size:40px;
     }
+    .banner > img {
+        width: 100%;
+    }
+
+    .publish > form {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 25px;
+    }
+
+    .promo {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .promo-video-container > video {
+        width: 100%;
+    }
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .features .feature-art .feature-art-image {
+        display: none;
+    }
+
+    
 }
 
 /** Dispositivos pequeños en vista landscape*/
