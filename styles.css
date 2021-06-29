@@ -4,13 +4,8 @@
     box-sizing: border-box;
 }
 main {
-    margin-top: 100px;
+    margin-top: 285px;
     text-align: center;
-}
-form > .main {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    padding: 10px;
 }
 
 body{
@@ -420,4 +415,38 @@ li {
     font-weight: 600;
     text-decoration: none;
     color: #67b54b;
+}
+
+/**dispositivos móviles viewport*/
+@media (max-width: 575px) {
+    main {
+        margin-top: 80px;
+        text-align: left;
+    }
+    .navbar, .actions {
+        display: none;
+    }
+    h1{
+        font-size:60px;
+    }
+}
+
+/** Dispositivos pequeños en vista landscape*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/**dispositivos medianos (tablet)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/**dispositivos grandes (desktop)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/** dispositivos extra-grandes (TVs, monitores grandes)*/
+@media (min-width: 1200px) {
+
 }
