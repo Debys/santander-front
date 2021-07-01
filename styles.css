@@ -79,7 +79,7 @@ li {
     width: 15%;
 }
 .navbar {
-    width: 70%;
+    /* width: 70%; */
     /*text-align: center; */
     text-align: left;
     color: green;
@@ -422,9 +422,9 @@ li {
     main {
         margin-top: 80px;
     }
-    .navbar, .actions {
+    /* .navbar, .actions {
         display: none;
-    }
+    } */
     h1{
         font-size:40px;
     }
@@ -452,6 +452,10 @@ li {
 
     .features .feature-art .feature-art-image {
         display: none;
+    }
+
+    .carousel-inner .carousel-item img {
+        width: 100%;
     }
 
     
